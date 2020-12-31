@@ -1,5 +1,4 @@
 # pylint: disable=C0321,C0103,C0301,E1305,E1121,C0302,C0330,C0111,W0613,W0611,R1705
-# -*- coding: utf-8 -*-
 """
 pip install peak-engines
 
@@ -30,7 +29,7 @@ from sklearn.ensemble import *
 from sklearn.cluster import *
 from sklearn.tree import *
 from lightgbm import LGBMModel, LGBMRegressor, LGBMClassifier
-
+from sklearn.ensemble import RandomForestClassifier
 
 try :
     from pyod.models.abod  import *
